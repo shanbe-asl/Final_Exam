@@ -1,5 +1,3 @@
-# https://docs.python.org/3/library/sqlite3.html
-# https://www.sqlitetutorial.net/sqlite-python/sqlite-python-select/
 import sqlite3
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
@@ -16,6 +14,9 @@ import pandas as pd
 import lxml
 import requests
 import utils.dash_reusable_components as drc
+
+# https://docs.python.org/3/library/sqlite3.html
+# https://www.sqlitetutorial.net/sqlite-python/sqlite-python-select/
 
 conn = sqlite3.connect('hr')
 
