@@ -8,7 +8,6 @@ import dash
 import plotly.express as px
 import os
 import numpy as np
-from selenium import webdriver
 from bs4 import BeautifulSoup
 import pandas as pd
 import lxml
